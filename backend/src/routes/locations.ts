@@ -1,7 +1,7 @@
 import { Router } from "express";
 import mongoose from "mongoose";
-import { LocationModel } from "../models/Location";
-import { ReviewModel } from "../models/Review";
+import { LocationModel } from "../models/Location.ts";
+import { ReviewModel } from "../models/Review.ts";
 
 export const locationsRouter = Router();
 

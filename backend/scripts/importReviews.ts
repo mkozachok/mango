@@ -1,9 +1,9 @@
 import dotenv from "dotenv";
 import mongoose from "mongoose";
-import { LocationModel } from "../src/models/Location";
-import { ReviewModel } from "../src/models/Review";
-import { ApifyClient } from "../src/services/apify";
-import type { ApifyReview } from "../src/services/apify";
+import { LocationModel } from "../src/models/Location.ts";
+import { ReviewModel } from "../src/models/Review.ts";
+import { ApifyClient } from "../src/services/apify.ts";
+import type { ApifyReview } from "../src/services/apify.ts";
 
 dotenv.config();
 

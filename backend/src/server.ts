@@ -2,8 +2,8 @@ import cors from "cors";
 import dotenv from "dotenv";
 import express from "express";
 import mongoose from "mongoose";
-import { locationsRouter } from "./routes/locations";
-import { initScheduler } from "./scheduler.js";
+import { locationsRouter } from "./routes/locations.ts";
+import { initScheduler } from "./scheduler.ts";
 
 dotenv.config();
 

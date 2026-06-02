@@ -2,3 +2,4 @@ node_modules
 mcps
 agent-transcripts
 .env
+dist
